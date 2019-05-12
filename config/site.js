@@ -38,5 +38,9 @@ module.exports = {
     //   url: 'https://www.lekoarts.de/en',
     //   name: 'Homepage',
     // },
+    {
+      url: 'https://www.shutterstock.com/g/Serjay+Pixart?rid=232627025&utm_medium=email&utm_source=ctrbreferral-link',
+      name: 'Shutterstock',
+    },
   ],
 }
