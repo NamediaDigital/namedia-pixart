@@ -31,7 +31,7 @@ module.exports = {
     //   name: 'Twitter',
     // },
     {
-      url: 'https://www.instagram.com/serjay.pixart/',
+      url: 'https://www.instagram.com/pixart.namedia.digital/',
       name: 'Instagram',
     },
     // {
