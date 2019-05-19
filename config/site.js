@@ -22,7 +22,7 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Your information
-  avatar: '/logos/lekoarts.png',
+  // avatar: '/logos/lekoarts.png',
   name: 'Pixart by Namedia Digital',
   location: 'Las Vegas, Nevada, USA',
   socialMedia: [
@@ -38,9 +38,9 @@ module.exports = {
     //   url: 'https://www.lekoarts.de/en',
     //   name: 'Homepage',
     // },
-    {
-      url: 'https://www.shutterstock.com/g/Serjay+Pixart?rid=232627025&utm_medium=email&utm_source=ctrbreferral-link',
-      name: 'Shutterstock',
-    },
+    // {
+    //   url: 'https://www.shutterstock.com/g/Serjay+Pixart?rid=232627025&utm_medium=email&utm_source=ctrbreferral-link',
+    //   name: 'Shutterstock',
+    // },
   ],
 }
