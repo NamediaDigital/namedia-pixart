@@ -16,7 +16,7 @@ const Content = styled.div`
   margin: 0 auto;
   width: 100%;
   max-width: ${props => props.theme.maxWidths.general};
-  padding: 2rem 1.0875rem 13rem 1.0875rem;
+  padding: 2rem 1.0875rem 8rem 1.0875rem;
   color: ${props => props.theme.colors.secondary};
 `
 
@@ -55,7 +55,7 @@ const Name = styled(animated.h4)`
 
 const Details = styled.div`
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 2rem;
   text-align: center;
 
   h1 {
@@ -65,7 +65,7 @@ const Details = styled.div`
 
 const Text = styled.div`
   max-width: 750px;
-  margin: 4rem auto 2rem auto;
+  margin: 2rem auto 2rem auto;
   color: white;
 `
 
@@ -83,9 +83,9 @@ const ProjectHeader = ({ avatar, name, title, date, areas, text }) => {
       <Content>
         <Back to="/">
           <img src={arrow} data-info="back" alt="Back to home" aria-label="Back to home" />
-          <Avatar>
+          {/* <Avatar>
             <img src={avatar} alt={name} />
-          </Avatar>
+          </Avatar> */}
           <Name>{name}</Name>
         </Back>
         <Details>

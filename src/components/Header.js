@@ -14,9 +14,9 @@ const Content = styled.div`
   padding: 3rem 1.0875rem 3rem 1.0875rem;
   color: ${props => props.theme.colors.secondary};
   text-align: center;
-  height: 600px;
+  height: 400px;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    height: 500px;
+    height: 300px;
   }
 `
 
@@ -57,9 +57,9 @@ const SocialMedia = styled.div`
 const Header = ({ avatar, name, location, socialMedia }) => (
   <Wrapper>
     <Content>
-      <Avatar>
+      {/* <Avatar>
         <img src={avatar} alt={name} />
-      </Avatar>
+      </Avatar> */}
       <Name>{name}</Name>
       <Location>{location}</Location>
       <SocialMedia>
